@@ -34,6 +34,7 @@ const RegistrationForm = () => {
   const handleSubmit = () => {
     localStorage.setItem("formData", JSON.stringify(formData));
     setStep(5);
+    window.alert("Form submitted successfully!");
   };
 
   const renderStep = () => {
@@ -61,7 +62,7 @@ const RegistrationForm = () => {
     }
   };
 
-  const isFormFilled = Object.keys(formData).length === 4; // Assuming all 4 steps are filled
+  const isFormFilled = Object.keys(formData).length === 4; 
 
   let progressBarWidth = (step - 1) * (100 / (steps.length - 1)) + "%";
 
@@ -72,7 +73,7 @@ const RegistrationForm = () => {
             Student Registration Form
         </div>
         <div className="navbar-right">
-          <a href="#">Home</a>
+        <a href="#" onClick={() => setStep(1)}>Home</a>
           {step < 5 && (
             <button className="dashboard-button" onClick={() => setStep(6)}>
               Dashboard

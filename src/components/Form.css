@@ -22,7 +22,7 @@
     font-size: 14px;
     cursor: pointer;
     margin-bottom: 1rem;
-    margin-right: ;
+    /* margin-right: ; */
   }
 
   .preview button, .dashboard button {
@@ -73,9 +73,10 @@
   .navbar {
     display: flex;
     justify-content: space-between; 
-    background-color: #0004ff; 
+    background-color: #65009482; 
     padding: 10px 20px; 
     margin-bottom: 2rem;
+    box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.318);
 }
 
 .navbar-left{
@@ -88,7 +89,7 @@
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; /* Add padding to each link */
+    padding: 10px 15px; 
 }
 
 .navbar a:hover {
@@ -96,7 +97,7 @@
 }
 
 .dashboard-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -109,5 +110,14 @@
 }
 
 .dashboard img, .preview img{
-    width: 250px;
+    width: 220px;
 }
+
+.PDFViewer {
+  position: absolute;
+  top: 57rem;
+  right: 15rem;
+  padding-bottom: 5rem;
+}
+
+

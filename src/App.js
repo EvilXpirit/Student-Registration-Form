@@ -6,6 +6,11 @@ const App = () => {
   return (
     <div className="App">
       <RegistrationForm />
+      <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
     </div>
   );
 };
