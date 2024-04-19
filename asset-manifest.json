@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Student-Registration-Form/static/css/main.bc4d54a4.css",
-    "main.js": "/Student-Registration-Form/static/js/main.64bd8464.js",
+    "main.css": "/Student-Registration-Form/static/css/main.438bc16f.css",
+    "main.js": "/Student-Registration-Form/static/js/main.de23e0bf.js",
     "static/js/453.93e1788f.chunk.js": "/Student-Registration-Form/static/js/453.93e1788f.chunk.js",
     "index.html": "/Student-Registration-Form/index.html",
-    "main.bc4d54a4.css.map": "/Student-Registration-Form/static/css/main.bc4d54a4.css.map",
-    "main.64bd8464.js.map": "/Student-Registration-Form/static/js/main.64bd8464.js.map",
+    "main.438bc16f.css.map": "/Student-Registration-Form/static/css/main.438bc16f.css.map",
+    "main.de23e0bf.js.map": "/Student-Registration-Form/static/js/main.de23e0bf.js.map",
     "453.93e1788f.chunk.js.map": "/Student-Registration-Form/static/js/453.93e1788f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc4d54a4.css",
-    "static/js/main.64bd8464.js"
+    "static/css/main.438bc16f.css",
+    "static/js/main.de23e0bf.js"
   ]
 }
