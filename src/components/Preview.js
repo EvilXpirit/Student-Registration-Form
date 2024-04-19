@@ -38,8 +38,8 @@ const Preview = ({ data, onBack, onSubmit }) => {
       </div>
       <button className="button" onClick={onBack}>Back</button>
       <button className="button" onClick={handleSubmit}>Submit</button>
-      <button className="button">
-      <PDFDownloadLink  document={<PDFDocument data={data} />} fileName="registration_form.pdf">
+      <button className="button pdfbutton">
+      <PDFDownloadLink  document={<PDFDocument data={data} />} style={{ textDecoration: 'none', color: 'white' }}  fileName="registration_form.pdf">
           {({ blob, url, loading, error }) => (loading ? "Loading document..." : "Download PDF")}
         </PDFDownloadLink>
       </button>
